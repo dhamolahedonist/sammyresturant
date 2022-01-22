@@ -1,0 +1,106 @@
+*,
+*::after,
+::before {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  /* 62.5% of 16px =10px */
+  font-size: 62.5%;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.9;
+}
+h1,
+h2,
+h3 {
+  color: var(--font-color);
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+a {
+  text-decoration: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+/* .menu {
+  width: 200px;
+  height: 50px;
+  background: #000;
+  border: 1px solid #555;
+} */
+#resturant {
+  height: 500px;
+  width: 700px;
+  background-color: #f3f3f3;
+  margin-top: 10rem;
+}
+.btn {
+  padding: 0.2rem 0.5rem;
+  border: 1px solid brown;
+  border-radius: 0.5rem;
+  color: #f3f3f3;
+  background: brown;
+  font-size: 17px;
+  justify-content: center;
+}
+.btn:hover {
+  color: rosybrown;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 20rem;
+}
+h3 {
+  text-align: center;
+  margin-top: 2rem;
+  color: #000033;
+}
+.resturant-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.container {
+  margin-top: 20px;
+}
+.container header {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  border-bottom: 0.1px solid wheat;
+}
+.container .menu {
+  display: flex;
+  margin-top: 10px;
+}
+.menu p {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.menu img {
+  width: 150px;
+  height: 100px;
+  /* border-radius: 50%; */
+  object-fit: cover;
+  margin-top: 2rem;
+  border: 2px solid #000033;
+  margin-left: 2rem;
+  border-radius: 1rem;
+}
+h4 {
+  font-size: 16px;
+}
+.price {
+  color: orangered;
+  margin-left: 5px;
+}
